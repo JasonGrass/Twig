@@ -1,5 +1,9 @@
 # Twig
 
+[![](https://img.shields.io/nuget/v/Jgrass.Twig.Core?logo=nuget)](https://www.nuget.org/packages/Jgrass.Twig.Core/)
+
+[![](https://img.shields.io/nuget/v/Jgrass.Twig.Wpf?logo=nuget)](https://www.nuget.org/packages/Jgrass.Twig.Wpf/)
+
 A tool for data sharing between View/ViewModel based on WPF logical trees.
 
 一个基于 WPF 逻辑树，在 View/ViewModel 中进行数据共享的工具。
@@ -25,6 +29,13 @@ MainView/MainViewModel
 ```
 
 ## How to use
+
+install by nuget
+
+```sh
+Install-Package Jgrass.Twig.Wpf
+Install-Package Jgrass.Twig.Core
+```
 
 1 Inject View (WPF)
 
