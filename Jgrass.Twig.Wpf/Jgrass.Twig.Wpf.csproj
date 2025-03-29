@@ -5,6 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+
+    <PackageId>Jgrass.Twig.Wpf</PackageId>
+    <IsPackable>true</IsPackable>
+    <Version>0.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/JasonGrass/Twig</RepositoryUrl>
+
   </PropertyGroup>
 
   <ItemGroup>
