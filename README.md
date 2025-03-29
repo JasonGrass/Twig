@@ -1,8 +1,6 @@
 # Twig
 
-[![](https://img.shields.io/nuget/v/Jgrass.Twig.Core?logo=nuget)](https://www.nuget.org/packages/Jgrass.Twig.Core/)
-
-[![](https://img.shields.io/nuget/v/Jgrass.Twig.Wpf?logo=nuget)](https://www.nuget.org/packages/Jgrass.Twig.Wpf/)
+[![Jgrass.Twig.Core](https://img.shields.io/nuget/v/Jgrass.Twig.Core?logo=nuget&label=Jgrass.Twig.Core)](https://www.nuget.org/packages/Jgrass.Twig.Core/) [![Jgrass.Twig.Wpf](https://img.shields.io/nuget/v/Jgrass.Twig.Wpf?logo=nuget&label=Jgrass.Twig.Wpf)](https://www.nuget.org/packages/Jgrass.Twig.Wpf/)
 
 A tool for data sharing between View/ViewModel based on WPF logical trees.
 
