@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Jgrass.Twig.Wpf/Jgrass.Twig.Wpf.csproj" />
+  <Project Path="Jgrass.Twig/Jgrass.Twig.csproj" />
+  <Project Path="Twig.Wpf.Example/Twig.Wpf.Example.csproj" />
+</Solution>
