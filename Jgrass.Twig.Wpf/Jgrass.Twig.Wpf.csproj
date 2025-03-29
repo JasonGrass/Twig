@@ -9,6 +9,7 @@
     <PackageId>Jgrass.Twig.Wpf</PackageId>
     <IsPackable>true</IsPackable>
     <Version>0.0.1</Version>
+    <PackageReadmeFile>README.nuget.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/JasonGrass/Twig</RepositoryUrl>
@@ -17,6 +18,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Jgrass.Twig\Jgrass.Twig.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Include="..\README.nuget.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

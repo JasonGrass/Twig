@@ -8,9 +8,14 @@
     <PackageId>Jgrass.Twig.Core</PackageId>
     <IsPackable>true</IsPackable>
     <Version>0.0.1</Version>
+    <PackageReadmeFile>README.nuget.md</PackageReadmeFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/JasonGrass/Twig</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="..\README.nuget.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
