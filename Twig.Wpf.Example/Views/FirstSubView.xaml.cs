@@ -22,13 +22,6 @@ public partial class FirstSubView : UserControl
     {
         InitializeComponent();
 
-        Task.Delay(1000)
-            .ContinueWith(_ =>
-            {
-                this.Dispatcher.Invoke(() =>
-                {
-                    TwigTreeUtils.Inject(this);
-                });
-            });
+        TwigTreeUtils.Inject(this);
     }
 }

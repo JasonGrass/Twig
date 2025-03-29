@@ -21,16 +21,6 @@ public partial class SecondSubView : UserControl
     public SecondSubView()
     {
         InitializeComponent();
-        // TwigTreeUtils.Inject(this);
-
-
-        Task.Delay(2000)
-            .ContinueWith(_ =>
-            {
-                this.Dispatcher.Invoke(() =>
-                {
-                    TwigTreeUtils.Inject(this);
-                });
-            });
+        TwigTreeUtils.Inject(this);
     }
 }
