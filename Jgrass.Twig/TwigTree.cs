@@ -7,6 +7,12 @@ using Jgrass.Twig.Helper;
 
 namespace Jgrass.Twig;
 
+/// <summary>
+/// 维护一个树形结构的数据结构，保存 View/ViewModel 之前的树形关系。
+/// 也可以不用手动维护，将数据保存到 ConditionalWeakTable{view, data} 中，
+/// 在 get 数据时，沿着逻辑树向上查找。这是另一种实现方式。
+/// </summary>
+/// <typeparam name="TView"></typeparam>
 public class TwigTree<TView>
     where TView : class
 {
